@@ -1,0 +1,20 @@
+﻿  GameState.cpp
+D:\cppProjects\asya\PerfectGame\GameState\GameState.cpp(36,40): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+  UdpSocket.cpp
+D:\cppProjects\asya\PerfectGame\PerfectGameClient\UdpSocket.cpp(16,23): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+D:\cppProjects\asya\PerfectGame\PerfectGameClient\UdpSocket.cpp(68,5): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\cppProjects\asya\PerfectGame\PerfectGameClient\UdpSocket.cpp(75,5): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\cppProjects\asya\PerfectGame\PerfectGameClient\UdpSocket.cpp(86,5): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+D:\cppProjects\asya\PerfectGame\GameManager\main.cpp(36,19): warning C4244: 'return': conversion from '_Rep' to 'unsigned long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(3579,1): warning C4267: 'argument': conversion from 'size_t' to 'u_short', possible loss of data
+D:\cppProjects\asya\PerfectGame\GameManager\main.cpp(50): message : see reference to function template instantiation 'std::unique_ptr<UdpSocket,std::default_delete<UdpSocket>> std::make_unique<UdpSocket,const size_t&,0>(const size_t &)' being compiled
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 493 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  GameManager.vcxproj -> D:\cppProjects\asya\PerfectGame\x64\Release\GameManager.exe

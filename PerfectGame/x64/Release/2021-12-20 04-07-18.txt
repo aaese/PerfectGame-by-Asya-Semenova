@@ -1,0 +1,5 @@
+pos = p->getPos();
+					while (state._map[pos.second+1][pos.first] == GameState::Block::Background) {
+						p->updatePos(pos.first, pos.second +1);
+						pos = p->getPos();
+					}
